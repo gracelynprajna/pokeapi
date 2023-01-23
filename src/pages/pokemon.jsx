@@ -9,9 +9,11 @@ export default function Pokemon(){
         <>
         <TabBar/>
         <div>
+            <center>
             <p>Name: {pokemonData.name}</p>
             <p>Weight: {pokemonData.weight}</p>
-            <img src="hhttps://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png" />
+            <img src= {pokemonData.sprites.front_default}/>
+            </center>
         </div>
         </>
     )
